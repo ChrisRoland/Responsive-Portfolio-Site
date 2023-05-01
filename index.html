@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Developer" content="Chris Ebube Roland">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Licorice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Site | Welcome!</title>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <nav>
+                    <div class="hand">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li class="btn"><a href="#">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="container">
+                <div class="hero-text">
+                    <h3>Hello There! 👋</h3>
+                    <h1>I Am <span class="input">Chris Ebube Roland.</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt eius voluptates omnis
+                        tempora veritatis nihil magni, laborum ex architecto velit, in, voluptatem earum iste accusamus
+                        modi perferendis quo eaque.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <button type="button">More About Me</button>
+                </div>
+                <div class="bottom">
+                    <p>&copy; Chris 2023 - All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Chris Ebube Roland.", "a Web Developer.", "a Technical Writer.", "Looking foward to working with you!"],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });  
+    </script>
+    <!-- <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+            typeSpeed: 50,
+        });
+    </script> -->
+</body>
+
+</html>
